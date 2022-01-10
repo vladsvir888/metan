@@ -1,0 +1,48 @@
+.menu {
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        margin-right: 80px;
+
+        &:last-child {
+            margin-right: 70px;
+        }
+    }
+
+    &__link {
+        display: inline-block;
+        overflow: hidden;
+
+        font-size: 18px;
+        line-height: 21px;
+        color: get-color('text');
+        font-weight: 500;
+
+        span {
+            position: relative;
+
+            display: inline-block;
+
+            transition: all 0.3s;
+
+            &::before {
+                position: absolute;
+                top: 100%;
+
+                color: get-color('accent');
+                
+                transform: translateY(0);
+
+                content: attr(data-hover);
+            }
+        }
+
+        &:hover {
+            span {
+                transform: translateY(-100%);
+            }
+        }
+    }
+}

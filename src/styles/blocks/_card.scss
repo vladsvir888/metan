@@ -1,0 +1,139 @@
+.card {
+    padding-top: 330px;
+
+    &__top {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: $break_lg) {
+            flex-direction: column;
+        }
+    }
+
+    &__content-block {
+        width: 60%;
+
+        > * {
+            &:not(:first-child) {
+                margin-left: 100px;
+
+                @media (max-width: $break_lg) {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        @media (max-width: $break_md) {
+            width: 80%;
+        }
+
+        @media (max-width: $break_sm) {
+            width: 100%;
+        }
+    }
+
+    &__img-block {
+        width: 40%;
+
+        @media (max-width: $break_lg) {
+            display: none;
+        }
+    }
+
+    &__title {
+        margin-bottom: 40px;
+
+        @media (max-width: $break_lg) {
+            margin-bottom: 24px;
+        }
+
+        @media (max-width: $break_sm) {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__descr {
+        max-width: 420px;
+        margin-bottom: 56px;
+
+        font-size: 16px;
+        line-height: 26px;
+
+        @media (max-width: $break_sm) {
+            margin-bottom: 32px;
+
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    &__btn {
+        width: 285px;
+        padding: 25px;
+
+        @include btnEffect;
+
+        @media (max-width: $break_sm) {
+            width: 250px;
+            padding: 20px;
+
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 70px;
+
+        @media (max-width: $break_sm) {
+            margin-top: 20px;
+        }
+    }
+
+    &__bottom-item {
+        width: 22%;
+        margin-top: 30px;
+
+        @media (max-width: $break_lg) {
+            width: 45%;
+        }
+
+        @media (max-width: $break_sm) {
+            width: 100%;
+        }
+    }
+
+    &__item-title {
+        margin-bottom: 16px;
+
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 700;
+
+        @media (max-width: $break_lg) {
+            font-size: 18px;
+        }
+    }
+
+    &__item-descr {
+        font-size: 16px;
+        line-height: 26px;
+
+        @media (max-width: $break_lg) {
+            font-size: 14px;
+            line-height: 26px;
+        }
+    }
+
+    &__img-mobile {
+        display: none;
+
+        @media (max-width: $break_lg) {
+            display: block;
+            margin-bottom: 32px;
+        }
+    }
+}

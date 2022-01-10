@@ -1,0 +1,56 @@
+.header {
+
+    @media (max-width: $break_xl) {
+        padding: 8px 0;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: $break_xl) {
+            display: block;
+        }
+    }
+
+    &__start {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: $break_xl) {
+            justify-content: space-between;
+        }
+    }
+
+    &__logo {
+        @media (max-width: $break_sm) {
+            width: 120px;
+            height: 40px;
+        }
+    }
+
+    &__start-descr {
+        max-width: 180px;
+        margin-left: 24px;
+
+        @media (max-width: $break_xl) {
+            display: none;
+        }
+    }
+
+    &__end {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: $break_xl) {
+            display: none;
+        }
+    }
+
+    &__entry-btn {
+        width: 130px;
+        padding: 30px;
+
+        @include btnEffect;
+    }
+}

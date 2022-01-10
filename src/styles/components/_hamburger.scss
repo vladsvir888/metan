@@ -1,0 +1,23 @@
+.hamburger {
+    display: none;
+    width: 32px;
+    height: 19px;
+
+    cursor: pointer;
+
+    @media (max-width: $break_xl) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: inline-block;
+        width: 100%;
+        height: 2px;
+
+        background-color: get-color('accent');
+
+        pointer-events: none;
+    }
+}

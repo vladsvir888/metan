@@ -1,0 +1,34 @@
+@mixin btnEffect() {
+    span {
+        position: relative;
+
+        display: inline-block;
+
+        transition: $transition-time;
+
+        &::after {
+            position: absolute;
+            top: 50%;
+            right: -15px;
+
+            transform: translateY(-50%);
+            opacity: 0;
+
+            transition: $transition-time;
+
+            content: '»';
+        }
+    }
+
+    &:hover {
+        span {
+            padding-right: 15px;
+
+            &::after {
+                right: 0;
+
+                opacity: 1;
+            }
+        }
+    }
+}

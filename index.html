@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/">
+
+    <!-- Primary Meta Tags -->
+    <title>Hello, world</title>
+    <meta name="description" content="">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link href="./dist/bundle.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="visually-hidden">Метан - крупнейший поставщик газа для заправок</h1>
+
+    <!-- header -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__start">
+                <div class="hamburger">
+                    <div class="hamburger__item"></div>
+                    <div class="hamburger__item"></div>
+                    <div class="hamburger__item"></div>
+                </div>
+                <a href="">
+                    <picture>
+                        <source srcset="./assets/images/logo.webp" type="image/webp">
+                        <img src="./assets/images/logo.png" class="logo header__logo">
+                    </picture>
+                </a>
+                <div class="header__start-descr">
+                    Крупнейший поставщик газа для заправок
+                </div>
+            </div>
+            <div class="header__end">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <span data-hover="Наша сеть">Наша сеть</span>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <span data-hover="Стать партнером">Стать партнером</span>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <span data-hover="Контакты">Контакты</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="btn header__entry-btn">
+                    <span>Войти</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- /.header -->
+
+    <!-- promo -->
+    <section class="promo">
+        <div>
+            <svg class="promo__polygon-top">
+                <use xlink:href="./assets/images/sprite.svg#polygon_1"></use>
+            </svg>
+        </div>
+        <div>
+            <svg class="promo__polygon-bottom">
+                <use xlink:href="./assets/images/sprite.svg#polygon_2"></use>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="swiper promoSlider promo__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide promo__item lazy" data-bg="./assets/images/promo_bg.webp" data-bg-fallback="./assets/images/promo_bg.jpg">
+                        <h2 class="promo__title">Перейди на метан и начни экономить</h2>
+                        <div class="promo__descr">
+                            Наша топливная компания является самым надежным поставщиком дизельного топлива в Москве и области.  Наша топливная компания является самым надежным поставщиком дизельного топлива в&nbsp;Москве и области. 
+                        </div>
+                        <button class="btn promo__btn">
+                            <span>Начать содрудничество</span>
+                        </button>
+                    </div>
+                    <div class="swiper-slide promo__item lazy" data-bg="./assets/images/promo_bg.webp" data-bg-fallback="./assets/images/promo_bg.jpg">
+                        <h2 class="promo__title">Перейди на метан и начни экономить</h2>
+                        <div class="promo__descr">
+                            Наша топливная компания является самым надежным поставщиком дизельного топлива в Москве и области.  Наша топливная компания является самым надежным поставщиком дизельного топлива в&nbsp;Москве и области. 
+                        </div>
+                        <button class="btn promo__btn">
+                            <span>Начать содрудничество</span>
+                        </button>
+                    </div>
+                    <div class="swiper-slide promo__item lazy" data-bg="./assets/images/promo_bg.webp" data-bg-fallback="./assets/images/promo_bg.jpg">
+                        <h2 class="promo__title">Перейди на метан и начни экономить</h2>
+                        <div class="promo__descr">
+                            Наша топливная компания является самым надежным поставщиком дизельного топлива в Москве и области.  Наша топливная компания является самым надежным поставщиком дизельного топлива в&nbsp;Москве и области. 
+                        </div>
+                        <button class="btn promo__btn">
+                            <span>Начать содрудничество</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="promo__pagination-wrap">
+                    <div class="swiper-button-next">
+                        <svg class="promo__slider-arrow">
+                            <use xlink:href="./assets/images/sprite.svg#arrow_right"></use>
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg class="promo__slider-arrow">
+                            <use xlink:href="./assets/images/sprite.svg#arrow_left"></use>
+                        </svg>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- /.promo -->
+
+    <!-- card -->
+    <section class="card">
+        <div class="container">
+            <div class="card__top">
+                <div class="card__content-block">
+                    <h2 class="title card__title">Топливная карта</h2>
+                    <picture>
+                        <source srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./assets/images/card.webp" type="image/webp">
+                        <img class="lazy card__img-mobile" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./assets/images/card.png">
+                    </picture>
+                    <div class="card__descr">
+                        Оформи топливную карту и получи раширенные возможности, удобство управления расходов и более выгодные предложения при покупке.
+                    </div>
+                    <button class="btn card__btn">
+                        <span>Оформить карту</span>
+                    </button>
+                </div>
+                <div class="card__img-block" id="scene">
+                    <picture data-depth="2">
+                        <source srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./assets/images/card.webp" type="image/webp">
+                        <img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./assets/images/card.png">
+                    </picture>
+                </div>
+            </div>
+            <div class="card__bottom">
+                <div class="card__bottom-item">
+                    <div class="card__item-title">
+                        Безналичный расчет
+                    </div>
+                    <div class="card__item-descr">
+                        Приобретение топлива и всех необходимых услуг по безналичному расчету.
+                    </div>
+                </div>
+                <div class="card__bottom-item">
+                    <div class="card__item-title">
+                        Онлайн управление
+                    </div>
+                    <div class="card__item-descr">
+                        Контроль расходов гибкая настройка лимитов в личном кабинете, возврат НДС.
+                    </div>
+                </div>
+                <div class="card__bottom-item">
+                    <div class="card__item-title">
+                        Широкая сеть приема
+                    </div>
+                    <div class="card__item-descr">
+                        4353 АЗС, более 350 моек, шиномонтажных мастерских и станций обслуживания.
+                    </div>
+                </div>
+                <div class="card__bottom-item">
+                    <div class="card__item-title">
+                        Скидки при приобритении услуг
+                    </div>
+                    <div class="card__item-descr">
+                        Экономь до 1.5 рублей с литра. А новым клиентам действует скидка 5% на все виды бензина.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.card -->
+
+    <!-- stages -->
+    <section class="stages">
+        <div class="container">
+            <h2 class="title stages__title">Стать партнером</h2>
+            <div class="stages__wrap">
+                <div class="stages__item">
+                    <div>
+                        <svg class="stages__item-polygon">
+                            <use xlink:href="./assets/images/sprite.svg#polygon_3"></use>
+                        </svg>
+                    </div>
+                    <div class="stages__number">1</div>
+                    <div class="stages__content">
+                        <div class="stages__content-title">Заполняете заявку</div>
+                        <div class="stages__content-descr">
+                            Заполните заявку на сайте и с вами свяжутся наши менеджеры
+                        </div>
+                    </div>
+                </div>
+                <div class="stages__item">
+                    <div>
+                        <svg class="stages__item-polygon">
+                            <use xlink:href="./assets/images/sprite.svg#polygon_3"></use>
+                        </svg>
+                    </div>
+                    <div class="stages__number">2</div>
+                    <div class="stages__content">
+                        <div class="stages__content-title">Связываетесь с&nbsp;нами</div>
+                        <div class="stages__content-descr">
+                            Заполните заявку на сайте и с вами свяжутся наши менеджеры
+                        </div>
+                    </div>
+                </div>
+                <div class="stages__item">
+                    <div>
+                        <svg class="stages__item-polygon">
+                            <use xlink:href="./assets/images/sprite.svg#polygon_3"></use>
+                        </svg>
+                    </div>
+                    <div class="stages__number">3</div>
+                    <div class="stages__content">
+                        <div class="stages__content-title">Оговариваем условия</div>
+                        <div class="stages__content-descr">
+                            Заполните заявку на сайте и с вами свяжутся наши менеджеры
+                        </div>
+                    </div>
+                </div>
+                <div class="stages__item">
+                    <div>
+                        <svg class="stages__item-polygon">
+                            <use xlink:href="./assets/images/sprite.svg#polygon_3"></use>
+                        </svg>
+                    </div>
+                    <div class="stages__number">4</div>
+                    <div class="stages__content">
+                        <div class="stages__content-title">Заключаем договор</div>
+                        <div class="stages__content-descr">
+                            Заполните заявку на сайте и с вами свяжутся наши менеджеры
+                        </div>
+                    </div>
+                </div>
+                <div class="stages__item">
+                    <div>
+                        <svg class="stages__item-polygon">
+                            <use xlink:href="./assets/images/sprite.svg#polygon_3"></use>
+                        </svg>
+                    </div>
+                    <div class="stages__number">5</div>
+                    <div class="stages__content">
+                        <div class="stages__content-title">Доставляем метан</div>
+                        <div class="stages__content-descr">
+                            Заполните заявку на сайте и с вами свяжутся наши менеджеры
+                        </div>
+                    </div>
+                </div>
+                <div class="stages__item">
+                    <div>
+                        <svg class="stages__item-polygon">
+                            <use xlink:href="./assets/images/sprite.svg#polygon_3"></use>
+                        </svg>
+                    </div>
+                    <div class="stages__number">6</div>
+                    <div class="stages__content">
+                        <div class="stages__content-title">Радуемся работе</div>
+                        <div class="stages__content-descr">
+                            Заполните заявку на сайте и с вами свяжутся наши менеджеры
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.stages -->
+
+    <script src="./dist/bundle.js"></script>
+</body>
+
+</html>

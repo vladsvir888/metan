@@ -1,0 +1,20 @@
+<svg>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 18" id="arrow_left">
+    <path d="M34 9.00012L2 9.00012M2 9.00012L10.6486 17.0001M2 9.00012L10.6486 1.00012"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 18" id="arrow_right">
+    <path d="M0 9.00012L32 9.00012M32 9.00012L23.3514 17.0001M32 9.00012L23.3514 1.00012"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254 355" id="polygon_1" fill="none">
+    <path opacity="0.2" d="M-212.3 -111.3L-40 -182.669L132.3 -111.3L203.669 61L132.3 233.3L-40 304.669L-212.3 233.3L-283.669 61L-212.3 -111.3Z" stroke="#DD00F0" stroke-width="93"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287 755" id="polygon_2" fill="none">
+    <path opacity="0.2" d="M152.662 152.662L377.5 59.5316L602.338 152.662L695.468 377.5L602.338 602.338L377.5 695.468L152.662 602.338L59.5316 377.5L152.662 152.662Z" stroke="#DD00F0" stroke-width="110"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 217 217" id="polygon_3" fill="none">
+    <path d="M50.1477 50.1477L108.5 25.9774L166.852 50.1477L191.023 108.5L166.852 166.852L108.5 191.023L50.1477 166.852L25.9774 108.5L50.1477 50.1477Z" stroke="#F3F3F3" stroke-width="48"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" id="polygon_4" fill="none">
+    <path d="M33.3342 33.3342L72 17.3183L110.666 33.3342L126.682 72L110.666 110.666L72 126.682L33.3342 110.666L17.3183 72L33.3342 33.3342Z" stroke="#F3F3F3" stroke-width="32"/>
+  </symbol>
+</svg>
