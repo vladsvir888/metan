@@ -1,6 +1,6 @@
 .promo {
-    position: relative;
-
+    background-color: get-color('bg');
+    
     &__polygon-top {
         position: absolute;
         top: -80px;
@@ -154,13 +154,20 @@
     }
 }
 
-.swiper-pagination-fraction {
+.promo__slider .swiper-pagination-fraction {
+    left: -7px;
+    
     color: #fff;
 }
 
 .swiper-pagination-current {
     font-size: 40px;
     font-weight: 700;
+}
+
+.promo__slider .swiper-pagination-total {
+    position: absolute;
+    top: -10px;
 }
 
 .swiper-pagination-current::before {

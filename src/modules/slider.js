@@ -19,4 +19,6 @@ export default () => {
             prevEl: ".swiper-button-prev",
         },
     });
+
+    document.querySelector('.swiper-pagination-current').nextSibling.remove();
 };

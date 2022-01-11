@@ -1,5 +1,13 @@
 .card {
-    padding-top: 330px;
+    padding-top: 240px;
+
+    @media (max-width: $break_lg) {
+        padding-top: 120px;
+    }
+
+    @media (max-width: $break_md) {
+        padding-top: 80px;
+    }
 
     &__top {
         display: flex;
