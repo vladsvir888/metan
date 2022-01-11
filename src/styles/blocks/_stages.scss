@@ -1,12 +1,15 @@
 .stages {
     padding-top: 240px;
+    padding-bottom: 360px;
 
     @media (max-width: $break_lg) {
         padding-top: 144px;
+        padding-bottom: 180px;
     }
 
     @media (max-width: $break_sm) {
         padding-top: 80px;
+        padding-bottom: 80px;
     }
 
     &__wrap {

@@ -1,0 +1,123 @@
+.form {
+    &-wrap {
+        padding: 50px 30px 50px 80px;
+
+        background-color: #fff;
+
+        @media (max-width: $break_sm) {
+            padding: 0 15px;
+        }
+    }
+
+    &-wrap__title {
+        margin-bottom: 16px;
+
+        font-size: 60px;
+        line-height: 74px;
+        font-weight: 700;
+
+        @media (max-width: $break_md) {
+            font-size: 50px;
+            line-height: 60px;
+        }
+
+        @media (max-width: $break_sm) {
+            font-size: 32px;
+            line-height: 37px;
+        }
+    }
+
+    &-wrap__descr {
+        margin-bottom: 60px;
+
+        font-size: 16px;
+        line-height: 26px;
+
+        @media (max-width: $break_sm) {
+            margin-bottom: 30px;
+
+            font-size: 14px;
+        }
+    }
+
+    &__btn {
+        width: 300px;
+        padding: 25px;
+
+        @include btnEffect;
+
+        @media (max-width: $break_sm) {
+            width: 280px;
+            padding: 20px;
+
+            font-size: 14px;
+        }
+    }
+
+    &__input-wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__input {
+        position: relative;
+
+        margin-right: 15px;
+        margin-bottom: 40px;
+
+        input {
+            padding: 20px;
+            width: 380px;
+
+            background: #f3f3f3;
+            border: none;
+            outline: none;
+
+            &:focus, 
+            &:valid {
+                ~ label {
+                    top: -16px;
+                    left: 0;
+
+                    font-size: 12px;
+                    color: get-color('accent');
+                }
+
+                ~ span {
+                    width: 100%;
+                }
+            }
+
+            @media (max-width: $break_sm) {
+                width: 280px;
+            }
+        }
+
+        label {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+
+            transform: translateY(-50%);
+
+            color: #aaa;
+
+            transition: 0.2s;
+            pointer-events: none;
+        }
+
+        span {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+            width: 0;
+            height: 2px;
+
+            background-color: get-color('accent');
+
+            transition: 0.2s;
+        }
+    }
+}

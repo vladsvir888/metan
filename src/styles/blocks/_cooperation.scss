@@ -1,0 +1,33 @@
+.cooperation {
+    position: relative;
+
+    padding: 120px 0;
+
+    @media (max-width: $break_lg) {
+        padding: 0;
+    }
+
+    &__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+
+        @media (max-width: $break_lg) {
+            display: none;
+        }
+    }
+
+    &__form-wrap {
+        position: relative;
+
+        width: 50%;
+
+        @media (max-width: $break_lg) {
+            width: 100%;
+        }
+    }
+}

@@ -152,12 +152,14 @@
             <div class="container about__bottom-container">
                 <div class="about__item">
                     <h3 class="about__item-title">Москва и МО</h3>
-                    <p class="about__item-text">1. г. Москва, <br> 
-                        ул. Московско-Венская, 32</p>
-                    <p class="about__item-text">2. г. Москва, <br> 
-                        ул. Московско-Венская, 32</p>
-                    <p class="about__item-text">3. г. Москва, <br> 
-                        ул. Московско-Венская, 32</p>
+                    <div class="about__text-wrap">
+                        <p class="about__item-text">1. г. Москва, <br> 
+                            ул. Московско-Венская, 32</p>
+                        <p class="about__item-text">2. г. Москва, <br> 
+                            ул. Московско-Венская, 32</p>
+                        <p class="about__item-text">3. г. Москва, <br> 
+                            ул. Московско-Венская, 32</p>
+                    </div>
                 </div>
                 <div class="about__item">
                     <div class="about__item-wrap">
@@ -185,12 +187,14 @@
                 </div>
                 <div class="about__item">
                     <h3 class="about__item-title">Москва и МО</h3>
-                    <p class="about__item-text">8. г. Москва, <br> 
-                        ул. Московско-Венская, 32</p>
-                    <p class="about__item-text">9. г. Москва, <br> 
-                        ул. Московско-Венская, 32</p>
-                    <p class="about__item-text">10. г. Москва, <br> 
-                        ул. Московско-Венская, 32</p>
+                    <div class="about__text-wrap">
+                        <p class="about__item-text">8. г. Москва, <br> 
+                            ул. Московско-Венская, 32</p>
+                        <p class="about__item-text">9. г. Москва, <br> 
+                            ул. Московско-Венская, 32</p>
+                        <p class="about__item-text">10. г. Москва, <br> 
+                            ул. Московско-Венская, 32</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -352,6 +356,36 @@
         </div>
     </section>
     <!-- /.stages -->
+
+    <!-- cooperation -->
+    <section class="cooperation">
+        <picture>
+            <source srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./assets/images/cooperation_bg.webp" type="image/webp">
+            <img class="lazy cooperation__img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./assets/images/cooperation_bg.jpg">
+        </picture>
+        <div class="form-wrap cooperation__form-wrap container">
+            <h2 class="title form-wrap__title">Начать сотрудничество</h2>
+            <div class="form-wrap__descr">Наша топливная компания является самым надежным поставщиком дизельного топлива в Москве и области.</div>
+            <form action="/" class="form">
+                <div class="form__input-wrap">
+                    <div class="form__input">
+                        <input type="text" required>
+                        <label>Ваше имя</label>
+                        <span></span>
+                    </div> 
+                    <div class="form__input">
+                        <input type="text" required>
+                        <label>Ваш телефон</label>
+                        <span></span>
+                    </div> 
+                </div>
+                <button class="btn form__btn" type="submit">
+                    <span>Начать сотрудничество</span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- /.cooperation -->
 
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
     <script src="./dist/bundle.js"></script>

@@ -82,11 +82,14 @@
         }
 
         @media (max-width: $break_sm) {
-            width: 43%;
-        }
-
-        @media (max-width: 400px) {
             width: 100%;
+
+            &:nth-child(2),
+            &:nth-child(3) {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
         }
     }
 
@@ -101,5 +104,17 @@
     &__item-text {
         font-size: 16px;
         line-height: 26px;
+
+        @media (max-width: $break_sm) {
+            margin-right: 20px;
+        }
+    }
+
+    &__text-wrap {
+        @media (max-width: $break_sm) {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
     }
 }
