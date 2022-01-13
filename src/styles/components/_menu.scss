@@ -26,6 +26,7 @@
             display: inline-block;
 
             transition: all 0.3s;
+            pointer-events: none;
 
             &::before {
                 position: absolute;

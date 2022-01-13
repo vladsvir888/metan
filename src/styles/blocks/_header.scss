@@ -1,5 +1,4 @@
 .header {
-
     @media (max-width: $break_xl) {
         padding: 8px 0;
     }
@@ -53,4 +52,32 @@
 
         @include btnEffect;
     }
+}
+
+// animation for fixed header
+@keyframes show-header {
+    0% {
+        opacity: 0;
+        transform: translateY(-70px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header__fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+
+    width: 100%;
+
+    background-color: #fff;
+
+    box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+
+    animation: show-header $transition-time;
 }

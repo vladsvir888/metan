@@ -8,7 +8,15 @@ import 'animate.css';
 import Wow from 'wow.js';
 
 // parallax.js
-import Parallax from 'parallax-js'
+import Parallax from 'parallax-js';
+
+// font-awesome
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
+
+library.add([faAngleUp]);
+
+dom.watch();
 
 // styles
 import './styles/style.scss';
@@ -18,12 +26,20 @@ import form from './modules/form';
 import lazyImages from './modules/lazyImages';
 import slider from './modules/slider';
 import ymaps from './modules/ymaps';
+import topBtn from './modules/topBtn';
+import scrollTo from './modules/scrollTo';
+import header from './modules/header';
+import burgerMenu from './modules/burgerMenu';
 
 document.addEventListener('DOMContentLoaded', () => {
     form();
     lazyImages();
     slider();
     ymaps();
+    topBtn();
+    scrollTo();
+    header();
+    burgerMenu();
 
     // parallax.js
     const scene = document.getElementById('scene');

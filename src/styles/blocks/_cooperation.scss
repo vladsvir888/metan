@@ -2,9 +2,11 @@
     position: relative;
 
     padding: 120px 0;
+    margin-bottom: 240px;
 
     @media (max-width: $break_lg) {
         padding: 0;
+        margin-bottom: 100px;
     }
 
     &__img {

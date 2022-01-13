@@ -1,9 +1,11 @@
 /* global ymaps */
 export default () => {
 
+    if (typeof ymaps === 'undefined') return;
+
     ymaps.ready(init);
 
-    function init () {
+    function init() {
         const myMap = new ymaps.Map("map", {
             center: [53.902284, 27.561831],
             zoom: 12,
