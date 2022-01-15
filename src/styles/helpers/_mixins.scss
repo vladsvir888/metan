@@ -5,6 +5,7 @@
         display: inline-block;
 
         transition: $transition-time;
+        pointer-events: none;
 
         &::after {
             position: absolute;

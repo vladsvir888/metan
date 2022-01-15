@@ -30,6 +30,7 @@ import topBtn from './modules/topBtn';
 import scrollTo from './modules/scrollTo';
 import header from './modules/header';
 import burgerMenu from './modules/burgerMenu';
+import modal from './modules/modal';
 
 document.addEventListener('DOMContentLoaded', () => {
     form();
@@ -40,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollTo();
     header();
     burgerMenu();
+    modal();
 
     // parallax.js
     const scene = document.getElementById('scene');

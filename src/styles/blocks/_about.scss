@@ -54,6 +54,27 @@
         height: 480px;
     }
 
+    // &__bottom-container {
+    //     display: grid;
+    //     grid-template-columns: repeat(4, 1fr);
+    //     gap: 42px 91px;
+
+    //     @media (max-width: $break_xl) {
+    //         gap: 30px;
+    //     }
+    // }
+
+    // &__item {
+    //     &:first-child,
+    //     &:last-child {
+    //         grid-row: 1 / 3;
+    //     }
+
+    //     &:last-child {
+    //         grid-column: 4 / 5;
+    //     }
+    // }
+
     &__bottom-container {
         display: flex;
         justify-content: space-between;
